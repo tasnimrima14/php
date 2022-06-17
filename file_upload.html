@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <form action="file_upload.php" 
+    method="post"
+    enctype="multipart/form-data">
+    <label for = "name">Name: </label>
+    <input type = "text" name = "username" placeholder="your username"><br><br>
+    <label for = "image">User Profile Picture</label>
+    <input type = "file" name = "profile_image">
+    <br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
